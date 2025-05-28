@@ -1,0 +1,99 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(3, 3, 46);
+    
+}
+header{
+    background: linear-gradient(to right, rgb(1, 1, 34), rgb(1, 1, 34) , gold); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    size: fit-content;
+    font-size: x-large;
+
+}
+.ul1{
+    display: flex;
+    
+}
+li{
+    
+    list-style: none;
+    margin-left: 25px;
+}
+a{
+   text-decoration: none; 
+   color: white;
+}
+img{
+
+}
+.head{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.main{
+  width: fit-content;
+   display: inline block; 
+   align-items: center;
+   margin: auto;
+   margin-top: 5%;
+   text-align: center;
+   font-size: large;
+   animation: myscale 2s ease-in;
+
+}
+.about{
+   width: 70Vw;
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+   margin: auto;
+   background-color: rgb(66, 65, 65);
+   margin-bottom: 5%;
+   text-align: center;
+   background: linear-gradient(to right, rgb(1, 1, 34), rgb(1, 1, 34) , gold); 
+   
+}
+.services{
+    width: 50Vw; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background: linear-gradient(to right, rgb(1, 1, 34), rgb(1, 1, 34) , gold); 
+
+}
+#mid{
+    width: 30vw;
+    height: 35vh;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.services:hover{
+    animation: myscale 2s ease;
+    cursor: pointer;
+}
+.services:hover{
+    animation: myscale 2s ease;
+    cursor: pointer;
+}
+.about:hover{
+    animation: myscale 2s ease;
+    cursor: pointer;
+}
+img:hover{
+    animation: myscale 2s ease;
+    cursor: pointer;
+}
+@keyframes myscale{
+0%{transform: scale(1);}
+50%{transform: scale(0.6);}
+100%{transform: scale(1);}
+}
